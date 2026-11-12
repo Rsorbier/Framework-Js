@@ -1,12 +1,9 @@
 <template>
 
-    <div v-if="!gameExist(route.params.id)">
-        Erreur 404 : La partie n'existe pas
-    </div>
-
-    <div v-else>
+    <div>
         <h1>id de la partie : {{ route.params.id }}</h1>
     </div>
+    
 </template>
 
 <script setup>
@@ -19,6 +16,14 @@
     const route = useRoute()
 
     route.params.id
+
+    routeur.push({name: 'games'})
+
+    watch(gameExist, () => {
+        if (!gameExist) {
+            routeur.push({path: "/games"})
+        }
+    })
 
 </script>
 
