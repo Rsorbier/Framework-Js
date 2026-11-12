@@ -2,7 +2,7 @@
     <form method="post" novalidate @submit.prevent="onSubmit">
         <CustomInput v-model="codeValue" fieldName="Code de la partie" :errorMessage="codeErrorMessage"/>
         <button type="submit">Rejoindre</button>
-        <div v-if="showError" class="invalidGame">Impossible de rejoindre. La partie n'existe pas ou plus</div>
+        <p v-if="showError" class="invalidGame">Impossible de rejoindre. La partie n'existe pas ou plus</p>
     </form>
 </template>
 
@@ -25,7 +25,7 @@
             window.location.replace(`/games/${values.code}`)
         }
         else {
-            showError = true
+            showError.value = true
         }
     })
 
