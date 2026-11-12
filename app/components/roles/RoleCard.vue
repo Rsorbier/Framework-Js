@@ -31,7 +31,6 @@ img {
 h2 {
   width: 100%;
   text-align: center;
-  /* font-size: 1.5em; */
   margin-top: 0;
   
 }

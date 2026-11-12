@@ -30,8 +30,6 @@
         console.log(event)
         emit("buttonClicked", event)
     }
-
-    // const sizeTest = ref(size)
 </script>
 
 <style scoped>

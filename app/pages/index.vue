@@ -19,7 +19,6 @@
 </template>
 
 <script setup>
-import CustomModal from '~/components/CustomModal.vue'
 import { useModalStore } from '#imports';
 
 //   definePageMeta({

@@ -26,13 +26,6 @@
         disabled: {type: Boolean, default: false},
     })
 
-    let cssClass = ref("")
-
-    if (props.clickable) {
-        cssClass += "clickable"
-        console.log(cssClass)
-    }
-
 </script>
 
 <style scoped>

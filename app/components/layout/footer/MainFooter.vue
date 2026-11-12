@@ -1,6 +1,5 @@
 <template>
     <footer>
-        <!-- <h1>Footer</h1> -->
         <Logo image="/images/logo.png" alt="logo" :show-text="false" width="5%"/>
         <!-- <CustomButton @buttonClicked="toggleDarkMode" :text="toggleDarkModeText" :show-icon="false" /> -->
     </footer>
