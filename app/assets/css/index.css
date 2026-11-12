@@ -1,0 +1,26 @@
+/* @import "tailwindcss"; */
+/* @import "@nuxt/ui"; */
+
+html {
+    background-color: #e0bb8b;
+    background:
+        /* url(/images/background.png), */
+        linear-gradient(125deg, rgba(224, 187, 139, 1) 0%, rgb(228, 212, 190) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+img {
+    image-rendering: pixelated;
+}

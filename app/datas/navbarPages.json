@@ -1,0 +1,17 @@
+[
+    {
+        "link": "/",
+        "title": "Accueil",
+        "icon": "material-symbols:other-houses"
+    },
+    {
+        "link": "/user",
+        "title": "Profil",
+        "icon": "bi:people-fill"
+    },
+    {
+        "link": "/roles",
+        "title": "Roles",
+        "icon": "iconoir:wolf-solid"
+    }
+]
